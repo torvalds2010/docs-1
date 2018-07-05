@@ -4,7 +4,7 @@ theme:
     name: material
     theme_dir: docstheme/material
     logo: img/waterlinked_logo_new.png
-    favicon: 'img/favicon_water_linked.jpg'
+    favicon: 'img/favicon_water_linked.ico'
     palette:
         primary: blue-grey
         accent: blue
