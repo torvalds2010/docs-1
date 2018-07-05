@@ -1,9 +1,10 @@
 site_name: Documentation
+site_url: 'https://waterlinked.github.io'
 theme:
     name: material
     theme_dir: docstheme/material
-    logo: 'img/waterlinked_logo_new.png'
-    favicon: 'img/favicon_water_linked.jpg'
+    logo: img/waterlinked_logo_new.png
+    favicon: 'img/favicon_water_linked.ico'
     palette:
         primary: blue-grey
         accent: blue
@@ -67,3 +68,5 @@ pages:
         - Introduction: master-d1/introduction.md
         - Page 2: master-d1/page2.md
         - Page 3: master-d1/page3.md
+
+copyright: © Water Linked 2018
