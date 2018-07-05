@@ -1,17 +1,17 @@
 .md-header {
     height:8.8rem;
-}
-.md-header-nav {
-    padding: 1.4rem;
-}
-
-.md-logo {
-    width:1740;
-    height:87;
-}
-.md-content__icon {
-    position: relative;
-    margin: .8rem 0;
-    padding: 0;
-    float: right
-}
+ }
+ .md-flex{
+    margin-top: 2rem;
+ }
+ .md-header-nav .md-logo img{
+    margin-top: -3rem;
+    height:8.8rem;
+    width:auto;
+ }
+ .md-container{
+    margin-top: 2rem;
+ }
+ .md-nav__list{
+    margin-top:4rem;
+ }
