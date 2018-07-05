@@ -4,25 +4,25 @@
 
 The diagram below shows the major signal processing blocks and how they are connected.
 
-![software1](img/software_1.png)
+![software1](../img/software_1.png)
 
 ## Architecture
 
-The block diagram below shows how the Web GUI and API are interconnected with the rest of the internal system. 
+The block diagram below shows how the Web GUI and API are interconnected with the rest of the internal system.
 
-![software2](img/software_2.png)
+![software2](../img/software_2.png)
 
 ## GUI
 
-The Underwater GPS GUI is web based. Using your favorite web browser, go the IP address as defined in chapter 3.1. We currently support and recommended Chrome, Firefox and Safari. 
+The Underwater GPS GUI is web based. Using your favorite web browser, go the IP address as defined in chapter 3.1. We currently support and recommended Chrome, Firefox and Safari.
 
 NB: Internet Explorer is not supported as of now.
 
 ### Configuration page
 
-![software3](img/software_3.png)
+![software3](../img/software_3.png)
 
-| # | Description          | API                  |  
+| # | Description          | API                  |
 | - | :------------------- | :------------------- |
 | 1 | The system configuration is stored on the server. Press “Store configuration” to <br/>save current configuration. The current setting are automatically loaded when the <br/>page is opened. |                   |
 | 2 | Configuration of the receiver position. Set the coordinates (x,y,depth) of all four <br/>receivers [meters]. The depth is always a positive number.  | /config/receivers |
@@ -45,21 +45,21 @@ The Underwater GPS comes with an easy-to-use API. This API uses a HTTP-based sch
 
 • read GPS and IMU raw data
 
-SWAGGER is used for API documentation. See 
+SWAGGER is used for API documentation. See
 [demo.waterlinked.com/swagger](http://demo.waterlinked.com/swagger) for more information.
 
 ## SW update
 
-![software4](img/software_4.png)
+![software4](../img/software_4.png)
 
-A SW update package (.wlup) includes all files required to update the system. Some SW updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your bard. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to [update.waterlinked.com](http://update.waterlinked.com) and enter the Chip ID of your kit. 
+A SW update package (.wlup) includes all files required to update the system. Some SW updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your bard. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to [update.waterlinked.com](http://update.waterlinked.com) and enter the Chip ID of your kit.
 
-| Step | Description          | API                  |  
+| Step | Description          | API                  |
 | -    | :------------------- | :------------------- |
 | 1    | Power off the system |  |
 | 2    | Set Master-D1 to fixed IP “192.168.2.94” | See chapter 3.1 |
 | 3    | Set the IP on your own computer to be on the same <br/>sub-net |  |
-| 4    | Power up the system while at the same time keeping <br/>the GP0 pin on the GPIO connector grounded | ![software5](img/software_5.png) |
+| 4    | Power up the system while at the same time keeping <br/>the GP0 pin on the GPIO connector grounded | ![software5](../img/software_5.png) |
 | 5    | Go to web GUI [http://192.168.2.94](http://192.168.2.94) |  |
 | 6    | After the system has booted and you see the <br/>upgrader GUI, remove the grounding of GP0. |  |
 | 7    | Click “Browse file” and select correct <>.wlup file |  |

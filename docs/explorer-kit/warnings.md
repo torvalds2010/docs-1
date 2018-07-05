@@ -1,8 +1,8 @@
 # Warnings
 
-To avoid the risk of damage to the Underwater GPS, please read this user manual carefully before it is installed and used for the first time. 
+To avoid the risk of damage to the Underwater GPS, please read this user manual carefully before it is installed and used for the first time.
 
-|                     |                     |   
+|                     |                     |
 | ------------------- |:------------------- |
 | **Operation area** | The Underwater GPS  ONLY  work in water. It does not work in air. |
 | **Max voltage** | The absolute maximum voltage rating of the equipment is 18V. Voltages above this will <br/>damage the electronics.  |
