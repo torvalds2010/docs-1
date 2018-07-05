@@ -1048,7 +1048,7 @@
                 
                 <h1 id="hardware-setup">Hardware Setup</h1>
 <h2 id="network">Network</h2>
-<p>At power-up, the Master-D1 reads the DIP-switch settings. The network mode depends on the GP0 and GP1 position. </p>
+<p>At power-up, the Master-D1 reads the DIP-switch settings. The network mode depends on the GP0 and GP1 position.</p>
 <table>
 <thead>
 <tr>
@@ -1063,7 +1063,7 @@
 <td>ON</td>
 <td align="left">ON</td>
 <td align="left">DHCP client</td>
-<td align="left"><img alt="hardware1" src="../img/hardware_1.png" /></td>
+<td align="left"><img alt="hardware1" src="../../img/hardware_1.png" /></td>
 </tr>
 <tr>
 <td>OFF</td>
@@ -1092,14 +1092,14 @@
 </tbody>
 </table>
 <p>The BS0 and BS1 positions on the dip switch shall both be ON. These boot-select pins are used in factory programming only.</p>
-<p>Use the supplied Ethernet cable to connect the Underwater GPS to a network switch or directly into the host computer. </p>
+<p>Use the supplied Ethernet cable to connect the Underwater GPS to a network switch or directly into the host computer.</p>
 <h2 id="acoustics">Acoustics</h2>
 <p>• Connect the four Receiver-D1 cables to channel 1 to 4 on the housing, ref chapter 2.2</p>
 <p>• If using the Locator-D1, connect this to the D1 connector on the housing, ref chapter 2.2</p>
 <p>• If using the Locator-A1, connect this to the A1 connector on the housing, ref chapter 2.2</p>
-<p><img alt="hardware2" src="../img/hardware_2.png" /></p>
+<p><img alt="hardware2" src="../../img/hardware_2.png" /></p>
 <h2 id="power">Power</h2>
-<p><img alt="hardware3" src="../img/hardware_3.png" /></p>
+<p><img alt="hardware3" src="../../img/hardware_3.png" /></p>
 <p>The power cable comes with stripped jacket. Connect the stripped cables to your favorite 12V power source.</p>
 <table>
 <thead>
@@ -1132,7 +1132,7 @@
 </tbody>
 </table>
 <h2 id="locators">Locators</h2>
-<p><img alt="hardware4" src="../img/hardware_4.png" /></p>
+<p><img alt="hardware4" src="../../img/hardware_4.png" /></p>
 <p>The Underwater GPS can be used with two different types of Locators, Locator-A1 and Locator-D1. The Locator-A1 is recommended when integrating on ROVs. See comparison table bellow.</p>
 <table>
 <thead>
@@ -1170,8 +1170,8 @@
 </tr>
 <tr>
 <td>Block diagram</td>
-<td align="left"><img alt="hardware5" src="../img/hardware_5.png" /></td>
-<td align="left"><img alt="hardware6" src="../img/hardware_6.png" /></td>
+<td align="left"><img alt="hardware5" src="../../img/hardware_5.png" /></td>
+<td align="left"><img alt="hardware6" src="../../img/hardware_6.png" /></td>
 </tr>
 <tr>
 <td>Picture</td>
@@ -1187,10 +1187,10 @@
 </table>
 <h2 id="reference-systems">Reference Systems</h2>
 <p>In order to calculate the absolute position of the Locator we need to define two reference systems, the acoustic and the global reference system. The global reference system is defined by latitude and longitude and is the reference system used by the GPS and in maps.</p>
-<p><img alt="hardware7" src="../img/hardware_7.png" /></p>
+<p><img alt="hardware7" src="../../img/hardware_7.png" /></p>
 <p>The acoustic reference system  (the x and y axis) is defined by the orientation of the housing. The housing is by definition located in origin (x=0, y=0).  A label on top of the lid indicates the x-y coordinate system. The position of the receivers and the search area are specified in the Acoustic reference system.</p>
-<p><img alt="hardware8" src="../img/hardware_8.png" /></p>
-<p><img alt="hardware9" src="../img/hardware_9.png" /></p>
+<p><img alt="hardware8" src="../../img/hardware_8.png" /></p>
+<p><img alt="hardware9" src="../../img/hardware_9.png" /></p>
 <h2 id="guidelines">Guidelines</h2>
 <p>You can in principle place the receivers at any location within 100m from the origin of the acoustic reference system. In order to ensure the best performance, you should follow a few guidelines:</p>
 <table>
@@ -1241,19 +1241,19 @@
 </table>
 <h2 id="boat-example">Boat Example</h2>
 <p>The illustration bellow shows a typical receiver configuration when installed on a boat. The receivers are hanging from the side of the boat, one in each corner. The depth of the receivers are typically 2-4m, deep enough to get below the hull and get free line-of-sight to the Locator. Notice how the housing defines the origin and coordinate system of the acoustic reference system.</p>
-<p><img alt="hardware10" src="../img/hardware_10.png" /></p>
+<p><img alt="hardware10" src="../../img/hardware_10.png" /></p>
 <h2 id="gps">GPS</h2>
 <p>The on-board GPS module is used to position the system in a global reference system. An external antenna with integrated amplifier is used to improve GPS reception. The signal strength of the GPS can be seen on the top bar in the web GUI.</p>
 <h3 id="gps-antenna-assembly">GPS-antenna assembly</h3>
 <p>The GPS-antenna can be mounted anywhere you want, but remember the GPS-antenna is the origin of the master electronics position. Therefor it is recommended to fasten the antenna on the lid of the pelican case. With the 3M double sided tape, attach the GPS- antenna to the lid of the pelican case.</p>
-<p><img alt="hardware11" src="../img/hardware_11.jpg" /></p>
+<p><img alt="hardware11" src="../../img/hardware_11.jpg" /></p>
 <p>Connect the GPS-antenna cable to the SMA connector on the master electronics. Torque the SMA nut to 3–5 in·lbf (0.3 to 0.6 N·m) or slightly more than finger tight.</p>
-<p><img alt="hardware12" src="../img/hardware_12.png" /></p>
+<p><img alt="hardware12" src="../../img/hardware_12.png" /></p>
 <h2 id="imu">IMU</h2>
 <p>The master electronics has an built in IMU used to provide the orientation of the master electronics. This is used in combination with the acoustic position and GPS to generate the global position of the Locator.</p>
 <h3 id="imu-calibration">IMU Calibration</h3>
-<p>For the IMU to work properly it needs to be calibrated. The calibration data is stored when full calibration is obtained for faster calibration on restart of the system. If the system is started on a new location a new calibration is needed for the IMU to work as intended. </p>
-<p>To calibrate the IMU disconnect all Recivers and Locator cables, but leave power and Ethernet connected. While looking at the top bar in the web GUI on the IMU status bar move the pelican case in a figure of 8 until all the bars are green. </p>
+<p>For the IMU to work properly it needs to be calibrated. The calibration data is stored when full calibration is obtained for faster calibration on restart of the system. If the system is started on a new location a new calibration is needed for the IMU to work as intended.</p>
+<p>To calibrate the IMU disconnect all Recivers and Locator cables, but leave power and Ethernet connected. While looking at the top bar in the web GUI on the IMU status bar move the pelican case in a figure of 8 until all the bars are green.</p>
                 
                   
                 
