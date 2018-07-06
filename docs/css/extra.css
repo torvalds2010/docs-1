@@ -15,3 +15,13 @@
 .md-sidebar{
     margin-top:6rem;
 }
+.md-nav__title.md-nav__title--site {
+    padding-top: 2rem;
+}
+.md-sidebar--primary[data-md-component='navigation'] {
+    margin-top: 0px;
+}
+.md-nav__button.md-logo img {
+    height: 4.5rem;
+    width: 9rem;
+}
