@@ -18,7 +18,6 @@
 .md-nav__title.md-nav__title--site {
     padding-top: 2rem;
 }
-.md-nav__item .md-nav__item--nested #nav-5 {
-    border-bottom-width: 0px;
-    margin-bottom: 2rem;
+.md-sidebar--primary[data-md-component='navigation'] {
+    margin-top: 0px;
 }
