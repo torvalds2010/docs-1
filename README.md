@@ -1,35 +1,29 @@
-# Usage
+# Documentation
 
-This is one of the two relevant git repositories for the documentation. This contains all the product documentation.
+We are using mkdocs to manage our documentation.
 
-## Editing
+# Contributing
 
-### Locating file
+We're really happy if you want to contribut to make the documention better!
+This is done by creating a pull request.
 
-The file structure is defined in mkdocs.yml. The ordering of the pages is done under "pages:".
+1. Install dependencies
 
-### Text
+```
+pip install mkdocs
+```
 
-The different text can be found in docs/product/something.md.
+2. Download and build
+```
+git clone --recursive https://github.com/waterlinked/docs
+cd docs
+mkdocs serve
+```
+3. Make changes using your favorite editor
 
-### Images
+4. Test them
 
-In README.md the syntax to include and image can be found after this: ![ name-of-image ]( link-to-image ) ![ eirik ]( docs/img/Eirik-slow-walk.jpg )
-
-In the product folders it is necessary to put "../img/" instead of "img/".
-
-### Tables
-
-In README.md the syntax to create a table can be found beneath this.
-
-| # | Title 1                             | Title 2              |
-| - | :---------------------------------- | :------------------- |
-| 1 | Some text here                      |                      |
-| 2 | Force line<br> breaks<br> like this | More text here       |
-
-### Links
-
-Link syntax can be found after this in README.md: [waterlinked.com](http://waterlinked.com)
+* Fire up your browser and go to localhost:8000
 
 ## Deploy changes to server
 

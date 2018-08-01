@@ -1,9 +1,10 @@
 site_name: Documentation
 site_url: 'https://waterlinked.github.io'
+repo_url: https://github.com/waterlinked/docs
 theme:
     name: material
     theme_dir: docstheme/material
-    logo: img/waterlinked_logo_new.png
+    logo: img/waterlinked_logo.png
     favicon: 'img/favicon_water_linked.ico'
     palette:
         primary: blue-grey
