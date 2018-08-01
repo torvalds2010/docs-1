@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/explorer-kit/introduction/", 
-            "text": "Introduction\n\n\nWater Linked Underwater GPS Explorer kit\n\n\n\n\n\n\n\nThe Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator-A1 with 1m cable without connector\n\n\n1 x Locator of choise\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page ;) .\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
+            "text": "Introduction\n\n\nWater Linked Underwater GPS Explorer kit\n\n\n\n\n\n\n\nThe Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator-A1 with 1m cable without connector\n\n\n1 x Locator of choise\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page \n.\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
             "title": "Introduction"
         }, 
         {
@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/explorer-kit/introduction/#collaboration", 
-            "text": "This document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem.  Or just simply hit the edit button on the top of tha page ;) .", 
+            "text": "This document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem.  Or just simply hit the edit button on the top of tha page  .", 
             "title": "Collaboration"
         }, 
         {
@@ -192,7 +192,7 @@
         }, 
         {
             "location": "/locators/locator-a1/", 
-            "text": "Locator-A1\n\n\nDescription\n\n\nThe Locator-A1 is an analog hydro acoustic locator device. The A1 has the smallest physical ootprint in our series of locators, and can be integrated into even the most compact ROV system. The Locator-A1 does not carry its own depth sensor. In an Underwater GPS system, the Master-D1 will require the depth to be provided from the underwater vehicle (ROV etc.) using the Master-D1  software API. The electrical interface complies with the Water Linked A1 communication standard. \n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the A1 interface connectors.\n\n\n\n\n\n\nDimentions", 
+            "text": "Locator-A1\n\n\nDescription\n\n\nThe Locator-A1 is an analog hydro acoustic locator device. The A1 has the smallest physical ootprint in our series of locators, and can be integrated into even the most compact ROV system. The Locator-A1 does not carry its own depth sensor. In an Underwater GPS system, the Master-D1 will require the depth to be provided from the underwater vehicle (ROV etc.) using the Master-D1  software API. The electrical interface complies with the Water Linked A1 communication standard. \n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the A1 interface connectors.\n\n\n\n\n\n\nDimensions", 
             "title": "Locator-A1"
         }, 
         {
@@ -216,13 +216,13 @@
             "title": "Wiring interface"
         }, 
         {
-            "location": "/locators/locator-a1/#dimentions", 
+            "location": "/locators/locator-a1/#dimensions", 
             "text": "", 
-            "title": "Dimentions"
+            "title": "Dimensions"
         }, 
         {
             "location": "/locators/locator-d1/", 
-            "text": "Locator-D1\n\n\nDescription\n\n\nThe Locator-D1 is a digital hydro acoustic locator device including a depth sensor. The depth data is available through the D1 interface, and makes it well suited for retrofitted and stand-alone applications. The electrical interface complies with the Water Linked D1 communication standard. The Locator performs a chain of advanced digital signal processing operations before transmitting an acoustic wave.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nNo requirements to integrate depth and power from external systems.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the D1 interface connectors.\n\n\n\n\n\n\nDemintions", 
+            "text": "Locator-D1\n\n\nDescription\n\n\nThe Locator-D1 is a digital hydro acoustic locator device including a depth sensor. The depth data is available through the D1 interface, and makes it well suited for retrofitted and stand-alone applications. The electrical interface complies with the Water Linked D1 communication standard. The Locator performs a chain of advanced digital signal processing operations before transmitting an acoustic wave.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nNo requirements to integrate depth and power from external systems.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the D1 interface connectors.\n\n\n\n\n\n\nDimensions", 
             "title": "Locator-D1"
         }, 
         {
@@ -246,13 +246,13 @@
             "title": "Wiring interface"
         }, 
         {
-            "location": "/locators/locator-d1/#demintions", 
+            "location": "/locators/locator-d1/#dimensions", 
             "text": "", 
-            "title": "Demintions"
+            "title": "Dimensions"
         }, 
         {
             "location": "/locators/locator-s1/", 
-            "text": "Hardware Setup\n\n\nDescription\n\n\nThe Locator-S1 is a digital hydro acoustic locator device with an internal GPS based time sync module. The Locator-S1 does not require tether integration for top-side communication. It only requires external power 10-18V to be provided from the underwater vehicle. Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.\n\n\nBenefits\n\n\n\n\n\n\nGPS based sync removes all tether requirements enabling very easy integration with any ROV.\n\n\n\n\n\n\nExtremely small size making it perfect for even the smallest underwater vehicles.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the S1 interface.\n\n\n\n\n\n\n\n\nInterface\n\n\nColor\n\n\n\n\n\n\n\n\n\n\nPositive (10-18V)\n\n\nOrange\n\n\n\n\n\n\nNegative\n\n\nOrange/White\n\n\n\n\n\n\nUART RX\n\n\nBrown\n\n\n\n\n\n\nUART TX\n\n\nBrown/White\n\n\n\n\n\n\n\n\nTerminal Interface\n\n\nThe Locator-S1 has a simple UART interface which is used to change the channel of the locator. \n\n\n\n\n\n\n\n\nSettings\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nBaud rate\n\n\n9600\n\n\n\n\n\n\nData parity stop\n\n\n8N1\n\n\n\n\n\n\nFlow control\n\n\nNone\n\n\n\n\n\n\n\n\nDementions", 
+            "text": "Hardware Setup\n\n\nDescription\n\n\nThe Locator-S1 is a digital hydro acoustic locator device with an internal GPS based time sync module. The Locator-S1 does not require tether integration for top-side communication. It only requires external power 10-18V to be provided from the underwater vehicle. Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.\n\n\nBenefits\n\n\n\n\n\n\nGPS based sync removes all tether requirements enabling very easy integration with any ROV.\n\n\n\n\n\n\nExtremely small size making it perfect for even the smallest underwater vehicles.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the S1 interface.\n\n\n\n\n\n\n\n\nInterface\n\n\nColor\n\n\n\n\n\n\n\n\n\n\nPositive (10-18V)\n\n\nOrange\n\n\n\n\n\n\nNegative\n\n\nOrange/White\n\n\n\n\n\n\nUART RX\n\n\nBrown\n\n\n\n\n\n\nUART TX\n\n\nBrown/White\n\n\n\n\n\n\n\n\nTerminal Interface\n\n\nThe Locator-S1 has a simple UART interface which is used to change the channel of the locator. \n\n\n\n\n\n\n\n\nSettings\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nBaud rate\n\n\n9600\n\n\n\n\n\n\nData parity stop\n\n\n8N1\n\n\n\n\n\n\nFlow control\n\n\nNone\n\n\n\n\n\n\n\n\nDimensions", 
             "title": "Locator-S1"
         }, 
         {
@@ -281,13 +281,13 @@
             "title": "Terminal Interface"
         }, 
         {
-            "location": "/locators/locator-s1/#dementions", 
+            "location": "/locators/locator-s1/#dimensions", 
             "text": "", 
-            "title": "Dementions"
+            "title": "Dimensions"
         }, 
         {
             "location": "/locators/locator-u1/", 
-            "text": "Locator-U1\n\n\n\n\nWarning\n\n\nThis is a draft only\n\n\n\n\nDscription\n\n\nThe Locator-U1 is a battery powered, digital hydro acoustic locator device including a depth sensor. The Locator has 3 mounting holes on each side for M3 screws. A default bracket is included. The internal battery is rechargeable using a USB-C charger (included). Fully charged, the U1 will be operational for approximately 6 hours. Before deployment in water, the Locator-U1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock. \n\n\nBenefits\n\n\n\n\n\n\nBattery powered operation removes all cable requirements enabling easy operation.\n\n\n\n\n\n\nExtremely small size making it perfect for on-body applications like diving.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nBecause the U1 is battery powered the only interface for it is the charing port which is a standard USB-C type connector.\n\n\nDimentions", 
+            "text": "Locator-U1\n\n\n\n\nWarning\n\n\nThis is a draft only\n\n\n\n\nDscription\n\n\nThe Locator-U1 is a battery powered, digital hydro acoustic locator device including a depth sensor. The Locator has 3 mounting holes on each side for M3 screws. A default bracket is included. The internal battery is rechargeable using a USB-C charger (included). Fully charged, the U1 will be operational for approximately 6 hours. Before deployment in water, the Locator-U1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock. \n\n\nBenefits\n\n\n\n\n\n\nBattery powered operation removes all cable requirements enabling easy operation.\n\n\n\n\n\n\nExtremely small size making it perfect for on-body applications like diving.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nBecause the U1 is battery powered the only interface for it is the charing port which is a standard USB-C type connector.\n\n\nDimensions", 
             "title": "Locator-U1"
         }, 
         {
@@ -311,13 +311,13 @@
             "title": "Wiring interface"
         }, 
         {
-            "location": "/locators/locator-u1/#dimentions", 
+            "location": "/locators/locator-u1/#dimensions", 
             "text": "", 
-            "title": "Dimentions"
+            "title": "Dimensions"
         }, 
         {
             "location": "/receiver-d1/", 
-            "text": "Receiver-D1\n\n\nDescription\n\n\nThe Receiver-D1 is a digital low-noise, high sensitivity hydro acoustic receiver that converts acoustic waves to a digital data stream. The receiver is equipped with a wideband analog front-end width a large dynamic range followed by advanced digital signal processing functionality. The electrical interface complies with the Water Linked D1 communication standard.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the Receiver interface connectors.\n\n\n\n\n\n\nDimentions", 
+            "text": "Receiver-D1\n\n\nDescription\n\n\nThe Receiver-D1 is a digital low-noise, high sensitivity hydro acoustic receiver that converts acoustic waves to a digital data stream. The receiver is equipped with a wideband analog front-end width a large dynamic range followed by advanced digital signal processing functionality. The electrical interface complies with the Water Linked D1 communication standard.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nThe tables below shows the pinning of the Receiver interface connectors.\n\n\n\n\n\n\nDimensions", 
             "title": "Receiver-D1"
         }, 
         {
@@ -341,13 +341,13 @@
             "title": "Wiring interface"
         }, 
         {
-            "location": "/receiver-d1/#dimentions", 
+            "location": "/receiver-d1/#dimensions", 
             "text": "", 
-            "title": "Dimentions"
+            "title": "Dimensions"
         }, 
         {
             "location": "/master-d1/", 
-            "text": "Master-D1 Electronics\n\n\n\n\nDescription\n\n\nThe Master-D1 is a digital acoustic position computing board. It calculates the position of any Locator relative to the position of the Receivers, as well as global position through use of the integrated GPS and IMU (compass). The board supports up to 7 independent D1 devices, 1 A1 device or 1 U1 device. It is accessed through a network interface. The Master-D1 is running its own webserver which exposes an API and a GUI. With its small physical footprint, the board is easily integrated into a topside housing.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nMake sure the LED is ON for all D1 interfaces that are connected. The digital D1 interfaces all have a separate LED to show if the communication link is in lock. When a Receiver-D1 or Locator-D1 cable is connected to the master board, the corresponding LED should be continuously ON. The silkscreen marking of the channel LEDs on the PCB are 0-indexed. The channel labels on the housing are 1-index. We thus get following LED channel mapping:\n\n\n\n\n\n\n\n\nInterface\n\n\nLED\n\n\n\n\n\n\n\n\n\n\nReceiver, channel 1\n\n\n0\n\n\n\n\n\n\nReceiver, channel 2\n\n\n1\n\n\n\n\n\n\nReceiver, channel 3\n\n\n2\n\n\n\n\n\n\nReceiver, channel 4\n\n\n3\n\n\n\n\n\n\nLocator-D1\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe LED on the Locator-A1 interface is not in use.\n\n\nDimensions\n\n\nThe diagrams below shows the mechanical dimensions of the Master-D1 electronics.\n\n\n\n\n\n\nSetup", 
+            "text": "Master-D1 Electronics\n\n\n\n\nDescription\n\n\nThe Master-D1 is a digital acoustic position computing board. It calculates the position of any Locator relative to the position of the Receivers, as well as global position through use of the integrated GPS and IMU (compass). The board supports up to 7 independent D1 devices, 1 A1 device or 1 U1 device. It is accessed through a network interface. The Master-D1 is running its own webserver which exposes an API and a GUI. With its small physical footprint, the board is easily integrated into a topside housing.\n\n\nBenefits\n\n\n\n\n\n\nExtremely small footprint enabling easy integration in other equipment.\n\n\n\n\n\n\nHighly robust operation in areas with reflections (shallow water, around installations etc.)\n\n\n\n\n\n\nWiring interface\n\n\nMake sure the LED is ON for all D1 interfaces that are connected. The digital D1 interfaces all have a separate LED to show if the communication link is in lock. When a Receiver-D1 or Locator-D1 cable is connected to the master board, the corresponding LED should be continuously ON. The silkscreen marking of the channel LEDs on the PCB are 0-indexed. The channel labels on the housing are 1-index. We thus get following LED channel mapping:\n\n\n\n\n\n\n\n\nInterface\n\n\nLED\n\n\n\n\n\n\n\n\n\n\nReceiver, channel 1\n\n\n0\n\n\n\n\n\n\nReceiver, channel 2\n\n\n1\n\n\n\n\n\n\nReceiver, channel 3\n\n\n2\n\n\n\n\n\n\nReceiver, channel 4\n\n\n3\n\n\n\n\n\n\nLocator-D1\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe LED on the Locator-A1 interface is not in use.\n\n\nDimensions\n\n\n\n\nThe diagrams below shows the mechanical dimensions of the Master-D1 electronics.\n\n\n\n\n\n\nSetup", 
             "title": "Master-D1"
         }, 
         {
@@ -412,12 +412,12 @@
         }, 
         {
             "location": "/helpful-links/", 
-            "text": "Helpful links\n\n\nRelease download: \nupdate.waterlinked.com\n\n\nWeb demo: \ndemo.waterlinked.com\n\n\nForum: [\nwaterlinked.com/forum\n\n\nFAQ: \nwaterlinked.com/faq\n\n\nAPI: \ndemo.waterlinked.com/swagger\n\n\nAPI examples: \nwaterlinked/examples\n\n\nYoutube: \nwaterlinked/youtube", 
+            "text": "Helpful links\n\n\nRelease download: \nupdate.waterlinked.com\n\n\nWeb demo: \ndemo.waterlinked.com\n\n\nForum: \nwaterlinked.com/forum\n\n\nFAQ: \nwaterlinked.com/faq\n\n\nAPI: \ndemo.waterlinked.com/swagger\n\n\nAPI examples: \nwaterlinked/examples\n\n\nYoutube: \nwaterlinked/youtube", 
             "title": "Helpful Links"
         }, 
         {
             "location": "/helpful-links/#helpful-links", 
-            "text": "Release download:  update.waterlinked.com  Web demo:  demo.waterlinked.com  Forum: [ waterlinked.com/forum  FAQ:  waterlinked.com/faq  API:  demo.waterlinked.com/swagger  API examples:  waterlinked/examples  Youtube:  waterlinked/youtube", 
+            "text": "Release download:  update.waterlinked.com  Web demo:  demo.waterlinked.com  Forum:  waterlinked.com/forum  FAQ:  waterlinked.com/faq  API:  demo.waterlinked.com/swagger  API examples:  waterlinked/examples  Youtube:  waterlinked/youtube", 
             "title": "Helpful links"
         }
     ]
