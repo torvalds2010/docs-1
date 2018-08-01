@@ -24,49 +24,36 @@ pages:
     - Explorer Kit:
         - Introduction: explorer-kit/introduction.md
         - Warnings: explorer-kit/warnings.md
-        - General: explorer-kit/general.md
-        - Hardware Setup: explorer-kit/hardware-setup.md
-        - Software: explorer-kit/software.md
-        - Spesifications: explorer-kit/spesifications.md
-        - Diagnostics: explorer-kit/diagnostics.md
-        - Helpful Links: explorer-kit/helpful-links.md
+        - Power supply: explorer-kit/power-supply.md
+        - Hardware: explorer-kit/hardware.md
+        - GUI:
+            - Position: explorer-kit/gui/position.md
+            - Receivers: explorer-kit/gui/receivers.md
+            - Settings: explorer-kit/gui/settings.md
+            - Diagnostic: explorer-kit/gui/diagnostic.md
+            - Upgrader: explorer-kit/gui/upgrader.md
+            - API: explorer-kit/gui/api.md
 
-    - Developer Bundle:
-        - Introduction: developer-bundle/introduction.md
-        - Warnings: developer-bundle/warnings.md
-        - General: developer-bundle/general.md
-        - Hardware Setup: developer-bundle/hardware-setup.md
-        - Software: developer-bundle/software.md
-        - Spesifications: developer-bundle/spesifications.md
-        - Diagnostics: developer-bundle/diagnostics.md
-        - Helpful Links: developer-bundle/helpful-links.md
+    # - Developer Bundle:
+    #     - Introduction: developer-bundle/introduction.md
+    #     - Warnings: developer-bundle/warnings.md
+    #     - General: developer-bundle/general.md
+    #     - Hardware Setup: developer-bundle/hardware-setup.md
+    #     - Software: developer-bundle/software.md
+    #     - Spesifications: developer-bundle/spesifications.md
+    #     - Diagnostics: developer-bundle/diagnostics.md
 
     - Locators:
-        - Locator A1:
-            - Introduction: locator-a1/introduction.md
-            - Page 2: locator-a1/page2.md
-            - Page 3: locator-a1/page3.md
-        - Locator D1:
-            - Introduction: locator-d1/introduction.md
-            - Page 2: locator-d1/page2.md
-            - Page 3: locator-d1/page3.md
-        - Locator S1:
-            - Introduction: locator-s1/introduction.md
-            - Page 2: locator-s1/page2.md
-            - Page 3: locator-s1/page3.md
-        - Locator U1:
-            - Introduction: locator-u1/introduction.md
-            - Page 2: locator-u1/page2.md
-            - Page 3: locator-u1/page3.md
+        - Introduction: locators/introduction.md
+        - Locator-A1: locators/locator-a1.md
+        - Locator-D1: locators/locator-d1.md
+        - Locator-S1: locators/locator-s1.md
+        - Locator-U1: locators/locator-u1.md
 
-    - Receiver D1:
-        - Introduction: receiver-d1/introduction.md
-        - Page 2: receiver-d1/page2.md
-        - Page 3: receiver-d1/page3.md
-
-    - Master D1:
-        - Introduction: master-d1/introduction.md
-        - Page 2: master-d1/page2.md
-        - Page 3: master-d1/page3.md
+    - Receiver-D1: receiver-d1.md
+    - Master-D1: master-d1.md
+    - Quickstart: quickstart.md
+    - Tutorials: tutorials.md
+    - Helpful Links: helpful-links.md
 
 copyright: © Water Linked 2018
