@@ -19,4 +19,6 @@ The Locator-U1 is a battery powered, digital hydro acoustic locator device inclu
 
 Because the U1 is battery powered the only interface for it is the charing port which is a standard USB-C type connector.
 
-## Dimentions
+## Dimensions
+
+![u1_dimensions](../img/u1_dimensions.png)

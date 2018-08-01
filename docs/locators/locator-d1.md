@@ -20,4 +20,6 @@ The tables below shows the pinning of the D1 interface connectors.
 
 ![d1_connector_binder](../img/d1_connector_binder.png)
 
-## Demintions
+## Dimensions
+
+![d1_dimensions](../img/d1_dimensions.png)

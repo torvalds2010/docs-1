@@ -18,5 +18,6 @@ The tables below shows the pinning of the A1 interface connectors.
 
 ![a1_connector_binder](../img/a1_connector_binder.png)
 
-## Dimentions
+## Dimensions
 
+![a1_dimensions](../img/a1_dimensions.png)

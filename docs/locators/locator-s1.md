@@ -33,4 +33,6 @@ The Locator-S1 has a simple UART interface which is used to change the channel o
 | Data parity stop | 8N1   |
 | Flow control | None  |
 
-## Dementions
+## Dimensions
+
+![s1_dimensions](../img/s1_dimensions.png)

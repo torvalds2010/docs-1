@@ -18,4 +18,6 @@ The tables below shows the pinning of the Receiver interface connectors.
 
 ![receiver_connector_binder](../img/receiver_connector_binder.png)
 
-## Dimentions
+## Dimensions
+
+![receiver_dimensions](../img/receiver_dimensions.png)

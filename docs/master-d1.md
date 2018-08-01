@@ -30,6 +30,8 @@ The LED on the Locator-A1 interface is not in use.
 
 ## Dimensions
 
+![master_dimensions](../img/master_dimensions.png)
+
 The diagrams below shows the mechanical dimensions of the Master-D1 electronics.
 
 ![master_dimensions_top](../img/master_dimensions_top.png)
