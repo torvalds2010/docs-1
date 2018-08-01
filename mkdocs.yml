@@ -8,6 +8,14 @@ theme:
     palette:
         primary: blue-grey
         accent: blue
+extra:
+    social:
+      - type: github
+        link: https://github.com/waterlinked/
+      - type: facebook
+        link: https://www.facebook.com/waterlinked/
+      - type: youtube
+        link: https://www.youtube.com/channel/UCZFmOcapjyWgEnS_l6JgxQg/
 
 markdown_extensions:
   - markdown.extensions.admonition
