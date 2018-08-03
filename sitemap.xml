@@ -51,6 +51,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://waterlinked.github.io/explorer-kit/quickstart/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://waterlinked.github.io/locators/introduction/</loc>
      <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
@@ -82,11 +87,6 @@
     </url>
     <url>
      <loc>https://waterlinked.github.io/master-d1/</loc>
-     <lastmod>2018-08-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://waterlinked.github.io/quickstart/</loc>
      <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>

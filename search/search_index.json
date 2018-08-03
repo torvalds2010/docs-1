@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/explorer-kit/introduction/", 
-            "text": "Introduction\n\n\nWater Linked Underwater GPS Explorer kit\n\n\n\n\n\n\n\nThe Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator-A1 with 1m cable without connector\n\n\n1 x Locator of choice\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page.\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
+            "text": "Introduction\n\n\nUnderwater GPS Explorer Kit\n\n\n\n\n\n\n\nThe Underwater GPS Explorer Kit is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, divers and other moving objects below the water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on the device to be positioned and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and acoustic reflective environments, such as in fish cages, near harbor installations, close to ship hulls, inside water tanks etc.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator of choice\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page.\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
             "title": "Introduction"
         }, 
         {
@@ -11,13 +11,13 @@
             "title": "Introduction"
         }, 
         {
-            "location": "/explorer-kit/introduction/#water-linked-underwater-gps-explorer-kit", 
-            "text": "The Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.    The Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.  Once the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.", 
-            "title": "Water Linked Underwater GPS Explorer kit"
+            "location": "/explorer-kit/introduction/#underwater-gps-explorer-kit", 
+            "text": "The Underwater GPS Explorer Kit is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, divers and other moving objects below the water surface.    The Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on the device to be positioned and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and acoustic reflective environments, such as in fish cages, near harbor installations, close to ship hulls, inside water tanks etc.  Once the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.", 
+            "title": "Underwater GPS Explorer Kit"
         }, 
         {
             "location": "/explorer-kit/introduction/#kit-content", 
-            "text": "1 x Underwater GPS Housing with Master-D1 electronics   4 x Receiver-D1 with 10m cable   1 x Locator-A1 with 1m cable without connector  1 x Locator of choice  1 x 3m Ethernet cable  1 x 3m power cable  1 x External GPS antenna", 
+            "text": "1 x Underwater GPS Housing with Master-D1 electronics   4 x Receiver-D1 with 10m cable   1 x Locator of choice  1 x 3m Ethernet cable  1 x 3m power cable  1 x External GPS antenna", 
             "title": "Kit content"
         }, 
         {
@@ -137,7 +137,7 @@
         }, 
         {
             "location": "/explorer-kit/gui/settings/", 
-            "text": "Settings\n\n\n\n\nLocator setup\n\n\nGlobal reference system\n\n\nIn this section you have the option to choose which GPS and IMU source you are going to use. We strongly advise to use static or external GPS when operation allow for it. Because the master-D1 electronics has a standard GPS receiver it has a standard deviation of around 2-3 meters. \n\n\nHow to input external GPS and IMU with the API is decribed \nhere\n.\n\n\nUser preferences\n\n\nIn the user preferences section you can select the unit of messurments you want to use. We support both Metric and Imperial. You can also select if you want a dummy boat to be displayed on the map pages and the receiver configuration page.", 
+            "text": "Settings\n\n\n\n\nLocator setup\n\n\nIn this section you choose which locator you are using with the system and on which channel it is sending. The Water Linked default channel is 17 and this is the channel that the Locator-S1 is running on. \n\n\n\n\nWarning\n\n\nIf you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found \nhere\n.\n\n\n\n\nGlobal reference system\n\n\nIn this section you have the option to choose which GPS and IMU source you are going to use. We strongly advise to use static or external GPS when operation allow for it. Because the master-D1 electronics has a standard GPS receiver it has a standard deviation of around 2-3 meters. \n\n\nHow to input external GPS and IMU with the API is decribed \nhere\n.\n\n\nUser preferences\n\n\nIn the user preferences section you can select the unit of messurments you want to use. We support both Metric and Imperial. You can also select if you want a dummy boat to be displayed on the map pages and the receiver configuration page.", 
             "title": "Settings"
         }, 
         {
@@ -147,7 +147,7 @@
         }, 
         {
             "location": "/explorer-kit/gui/settings/#locator-setup", 
-            "text": "", 
+            "text": "In this section you choose which locator you are using with the system and on which channel it is sending. The Water Linked default channel is 17 and this is the channel that the Locator-S1 is running on.    Warning  If you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found  here .", 
             "title": "Locator setup"
         }, 
         {
@@ -199,6 +199,51 @@
             "location": "/explorer-kit/gui/api/#api", 
             "text": "The Underwater GPS comes with an easy-to-use API. This API uses a HTTP-based scheme to interact with the system. Through the API you can among others:    set configuration settings    read acoustic and global position data    read GPS and IMU raw data    read and set POIs    SWAGGER is used for API documentation. See  demo.waterlinked.com/swagger  for more information.  Example code which use the api can be found  here .", 
             "title": "API"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/", 
+            "text": "Quickstart\n\n\nIntro\n\n\nThis is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:\n\n\n\n\nPower the topside unit\n\n\nCalibrate IMU\n\n\nPlace receivers\n\n\nConnect everything\n\n\nSelect locator and channel\n\n\nConfigure receiver placement in GUI\n\n\n\n\nPower the topside unit\n\n\nStart by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock.\n\n\nCalibrate IMU\n\n\nNext step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described \nhere\n. At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green.\n\n\nDeploying of receivers\n\n\nBefore starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit.\n\n\n\n\nTip\n\n\nAdding lead weights just above the receiver helps keep them stable when doing the positioning.\n\n\n\n\nConnect everything\n\n\nWhen connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.\n\n\n\n\nSelect locator and channel\n\n\nNow that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.\n\n\nConfigure receiver placement and seach range in GUI\n\n\nAfter selecting the correct locator you need to provide the correct placement of the receiver to the GUI for the positining algorithm to work correctly. This is done by draging and droping each receiver to the correct placment with regards to the topside unit. The position of each receiver is seen below the map view. It you click on the receiver you want to place a pop up with it exact placment. This can be used to place the receiver with better precision. Once this is done you can limit the search range by using tha same drag and drop feature.\n\n\n\n\nWarning\n\n\nIf you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found \nhere\n.\n\n\n\n\n\n\nTip\n\n\nReducing the search range helps to improve the performance of the system. It is recomanded to limith this range if you are oppreting in a smaller area. This is especially important in tanks.\n\n\n\n\nYou are now ready to explor the underwater world and knowing where you are at the same time.", 
+            "title": "Quickstart"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#quickstart", 
+            "text": "", 
+            "title": "Quickstart"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#intro", 
+            "text": "This is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:   Power the topside unit  Calibrate IMU  Place receivers  Connect everything  Select locator and channel  Configure receiver placement in GUI", 
+            "title": "Intro"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#power-the-topside-unit", 
+            "text": "Start by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock.", 
+            "title": "Power the topside unit"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#calibrate-imu", 
+            "text": "Next step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described  here . At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green.", 
+            "title": "Calibrate IMU"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#deploying-of-receivers", 
+            "text": "Before starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit.   Tip  Adding lead weights just above the receiver helps keep them stable when doing the positioning.", 
+            "title": "Deploying of receivers"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#connect-everything", 
+            "text": "When connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.", 
+            "title": "Connect everything"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#select-locator-and-channel", 
+            "text": "Now that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.", 
+            "title": "Select locator and channel"
+        }, 
+        {
+            "location": "/explorer-kit/quickstart/#configure-receiver-placement-and-seach-range-in-gui", 
+            "text": "After selecting the correct locator you need to provide the correct placement of the receiver to the GUI for the positining algorithm to work correctly. This is done by draging and droping each receiver to the correct placment with regards to the topside unit. The position of each receiver is seen below the map view. It you click on the receiver you want to place a pop up with it exact placment. This can be used to place the receiver with better precision. Once this is done you can limit the search range by using tha same drag and drop feature.   Warning  If you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found  here .    Tip  Reducing the search range helps to improve the performance of the system. It is recomanded to limith this range if you are oppreting in a smaller area. This is especially important in tanks.   You are now ready to explor the underwater world and knowing where you are at the same time.", 
+            "title": "Configure receiver placement and seach range in GUI"
         }, 
         {
             "location": "/locators/introduction/", 
@@ -399,51 +444,6 @@
             "location": "/master-d1/#setup", 
             "text": "", 
             "title": "Setup"
-        }, 
-        {
-            "location": "/quickstart/", 
-            "text": "Quickstart\n\n\nIntro\n\n\nThis is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:\n\n\n\n\nPower the topside unit\n\n\nCalibrate IMU\n\n\nPlace receivers\n\n\nConnect everything\n\n\nSelect locator and channel\n\n\nConfigure receiver placement in GUI\n\n\n\n\nPower the topside unit\n\n\nStart by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock. \n\n\nCalibrate IMU\n\n\nNext step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described \nhere\n. At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green. \n\n\nDeploying of receivers\n\n\nBefore starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit. \n\n\n\n\nTip\n\n\nAdding lead weights just above the receiver helps keep them stable when doing the positioning.\n\n\n\n\nConnect everything\n\n\nWhen connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.\n\n\n\n\nSelect locator and channel\n\n\nNow that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.\n\n\nConfigure receiver placement and seach range in GUI\n\n\nAfter selecting the correct locator you need to input the correct placement of the receiver for the positining algorithm to work correctly. \n\n\n\n\nWarning\n\n\nIf you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found \nhere\n.\n\n\n\n\nYou are now ready to explor the underwater world and knowing where you are at the same time.", 
-            "title": "Quickstart"
-        }, 
-        {
-            "location": "/quickstart/#quickstart", 
-            "text": "", 
-            "title": "Quickstart"
-        }, 
-        {
-            "location": "/quickstart/#intro", 
-            "text": "This is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:   Power the topside unit  Calibrate IMU  Place receivers  Connect everything  Select locator and channel  Configure receiver placement in GUI", 
-            "title": "Intro"
-        }, 
-        {
-            "location": "/quickstart/#power-the-topside-unit", 
-            "text": "Start by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock.", 
-            "title": "Power the topside unit"
-        }, 
-        {
-            "location": "/quickstart/#calibrate-imu", 
-            "text": "Next step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described  here . At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green.", 
-            "title": "Calibrate IMU"
-        }, 
-        {
-            "location": "/quickstart/#deploying-of-receivers", 
-            "text": "Before starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit.    Tip  Adding lead weights just above the receiver helps keep them stable when doing the positioning.", 
-            "title": "Deploying of receivers"
-        }, 
-        {
-            "location": "/quickstart/#connect-everything", 
-            "text": "When connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.", 
-            "title": "Connect everything"
-        }, 
-        {
-            "location": "/quickstart/#select-locator-and-channel", 
-            "text": "Now that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.", 
-            "title": "Select locator and channel"
-        }, 
-        {
-            "location": "/quickstart/#configure-receiver-placement-and-seach-range-in-gui", 
-            "text": "After selecting the correct locator you need to input the correct placement of the receiver for the positining algorithm to work correctly.    Warning  If you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found  here .   You are now ready to explor the underwater world and knowing where you are at the same time.", 
-            "title": "Configure receiver placement and seach range in GUI"
         }, 
         {
             "location": "/tutorials/", 
