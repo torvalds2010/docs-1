@@ -1,6 +1,8 @@
 # Locators
 
-The Water Linked Underwater GPS system supports multiple different locators to perform acoustic underwater positing. A short comparison ia found below. More indept information can be found on the next pages.
+The Locator is a transmitter which is placed on the underwater device which you want to position.
+
+The Underwater GPS system supports several different locators. A comparison table is found below. More in-depth information can be found on the following pages.
 
 ![locators_comparison](../img/locators_comparison.png)
 
