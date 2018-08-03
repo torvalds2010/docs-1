@@ -26,7 +26,7 @@ Use the supplied Ethernet cable to connect the Underwater GPS to a network switc
 
 * If using the Locator-A1, connect this to the A1 connector on the housing.
 
-* If using the Locator-S1, no connections to the housing is needed. Just power the locator and make sure both the status led on S1 and master is solid green.
+* If using the Locator-S1, no connections to the housing is needed. Just power the Locator and make sure both the status led on S1 and master is solid green.
 
 ![pelicase_cables_connected](../img/pelicase_cables_connected.png)
 
