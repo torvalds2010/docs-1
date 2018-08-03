@@ -2,7 +2,7 @@
 
 ## Description
 
-The Locator-D1 is a digital hydro acoustic locator device including a depth sensor. The depth data is available through the D1 interface, and makes it well suited for retrofitted and stand-alone applications. The electrical interface complies with the Water Linked D1 communication standard. The Locator performs a chain of advanced digital signal processing operations before transmitting an acoustic wave.
+The Locator-D1 carries its own depth sensor and can therefore operate fully stand-alone and independent of the device you want to position.
 
 ## Benefits
 
