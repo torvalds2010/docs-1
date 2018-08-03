@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/explorer-kit/introduction/", 
-            "text": "Introduction\n\n\nWater Linked Underwater GPS Explorer kit\n\n\n\n\n\n\n\nThe Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator-A1 with 1m cable without connector\n\n\n1 x Locator of choise\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page.\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
+            "text": "Introduction\n\n\nWater Linked Underwater GPS Explorer kit\n\n\n\n\n\n\n\nThe Underwater GPS is a robust and reliable acoustic positioning system with a range of 100m. The purpose of the system is to give a live GPS position of ROVs, surface-supplied divers and other moving objects below\nthe water surface.\n\n\n\n\n\n\n\nThe Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on a ROV or diver and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator\u2019s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and noisy acoustic environments, such as in a fish cage.\n\n\nOnce the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.\n\n\nKit content\n\n\n\n\n1 x Underwater GPS Housing with Master-D1 electronics \n\n\n4 x Receiver-D1 with 10m cable \n\n\n1 x Locator-A1 with 1m cable without connector\n\n\n1 x Locator of choice\n\n\n1 x 3m Ethernet cable\n\n\n1 x 3m power cable\n\n\n1 x External GPS antenna\n\n\n\n\nQuickstart\n\n\nGetting started with Waterlinked Underwater GPS\n\n\nCollaboration\n\n\nThis document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. \nOr just simply hit the edit button on the top of tha page.\n\n\nDiscussion\n\n\nIf you have more questions which is not answered on this page please go to our \nforum\n where we will be happy to answer you.", 
             "title": "Introduction"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/explorer-kit/introduction/#kit-content", 
-            "text": "1 x Underwater GPS Housing with Master-D1 electronics   4 x Receiver-D1 with 10m cable   1 x Locator-A1 with 1m cable without connector  1 x Locator of choise  1 x 3m Ethernet cable  1 x 3m power cable  1 x External GPS antenna", 
+            "text": "1 x Underwater GPS Housing with Master-D1 electronics   4 x Receiver-D1 with 10m cable   1 x Locator-A1 with 1m cable without connector  1 x Locator of choice  1 x 3m Ethernet cable  1 x 3m power cable  1 x External GPS antenna", 
             "title": "Kit content"
         }, 
         {
@@ -137,13 +137,28 @@
         }, 
         {
             "location": "/explorer-kit/gui/settings/", 
-            "text": "Settings", 
+            "text": "Settings\n\n\n\n\nLocator setup\n\n\nGlobal reference system\n\n\nIn this section you have the option to choose which GPS and IMU source you are going to use. We strongly advise to use static or external GPS when operation allow for it. Because the master-D1 electronics has a standard GPS receiver it has a standard deviation of around 2-3 meters. \n\n\nHow to input external GPS and IMU with the API is decribed \nhere\n.\n\n\nUser preferences\n\n\nIn the user preferences section you can select the unit of messurments you want to use. We support both Metric and Imperial. You can also select if you want a dummy boat to be displayed on the map pages and the receiver configuration page.", 
             "title": "Settings"
         }, 
         {
             "location": "/explorer-kit/gui/settings/#settings", 
             "text": "", 
             "title": "Settings"
+        }, 
+        {
+            "location": "/explorer-kit/gui/settings/#locator-setup", 
+            "text": "", 
+            "title": "Locator setup"
+        }, 
+        {
+            "location": "/explorer-kit/gui/settings/#global-reference-system", 
+            "text": "In this section you have the option to choose which GPS and IMU source you are going to use. We strongly advise to use static or external GPS when operation allow for it. Because the master-D1 electronics has a standard GPS receiver it has a standard deviation of around 2-3 meters.   How to input external GPS and IMU with the API is decribed  here .", 
+            "title": "Global reference system"
+        }, 
+        {
+            "location": "/explorer-kit/gui/settings/#user-preferences", 
+            "text": "In the user preferences section you can select the unit of messurments you want to use. We support both Metric and Imperial. You can also select if you want a dummy boat to be displayed on the map pages and the receiver configuration page.", 
+            "title": "User preferences"
         }, 
         {
             "location": "/explorer-kit/gui/diagnostic/", 
@@ -162,13 +177,18 @@
         }, 
         {
             "location": "/explorer-kit/gui/upgrader/", 
-            "text": "Software update\n\n\n\n\nA SW update package (.wlup) includes all files required to update the system. Some SW updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your bard. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to \nupdate.waterlinked.com\n and enter the Chip ID of your kit.\n\n\n\n\n\n\n\n\nStep\n\n\nDescription\n\n\nAPI\n\n\n\n\n\n\n\n\n\n\n1\n\n\nPower off the system\n\n\n\n\n\n\n\n\n2\n\n\nSet Master-D1 to fixed IP \u201c192.168.2.94\u201d\n\n\nSee chapter 3.1\n\n\n\n\n\n\n3\n\n\nSet the IP on your own computer to be on the same \nsub-net\n\n\n\n\n\n\n\n\n4\n\n\nPower up the system while at the same time keeping \nthe GP0 pin on the GPIO connector grounded\n\n\n\n\n\n\n\n\n5\n\n\nGo to web GUI \nhttp://192.168.2.94\n\n\n\n\n\n\n\n\n6\n\n\nAfter the system has booted and you see the \nupgrader GUI, remove the grounding of GP0.\n\n\n\n\n\n\n\n\n7\n\n\nClick \u201cBrowse file\u201d and select correct \n.wlup file\n\n\n\n\n\n\n\n\n8\n\n\nWait for update process to complete\n\n\n\n\n\n\n\n\n9\n\n\nWhen the update process is complete and successful,\nthe system will automatically reboot to standard mode\n\n\n\n\n\n\n\n\n10\n\n\nVerify that the SW version has updated", 
+            "text": "Software update\n\n\nAs of software release 2.1.0 the web GUI automaticly checks for new updates when the host computer is connected to internet. If you have the latest release you will see a green checkmark as below and if you don't have the latest it will give you a warning that a newer release is available. \n\n\n\n\nA software update package (.wlup) includes all files required to update the system. Some software updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your board. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to \nupdate.waterlinked.com\n and enter the Chip ID of your kit.\n\n\nUpdate process\n\n\n\n\n\n\n\n\nStep\n\n\nDescription\n\n\nAPI\n\n\n\n\n\n\n\n\n\n\n1\n\n\nPower off the system\n\n\n\n\n\n\n\n\n2\n\n\nSet Master-D1 to fixed IP \u201c192.168.2.94\u201d\n\n\nSee chapter 3.1\n\n\n\n\n\n\n3\n\n\nSet the IP on your own computer to be on the same \nsub-net\n\n\n\n\n\n\n\n\n4\n\n\nPower up the system while at the same time keeping \nthe GP0 pin on the GPIO connector grounded\n\n\n\n\n\n\n\n\n5\n\n\nGo to web GUI \nhttp://192.168.2.94\n\n\n\n\n\n\n\n\n6\n\n\nAfter the system has booted and you see the \nupgrader GUI, remove the grounding of GP0.\n\n\n\n\n\n\n\n\n7\n\n\nClick \u201cBrowse file\u201d and select correct \n.wlup file\n\n\n\n\n\n\n\n\n8\n\n\nWait for update process to complete\n\n\n\n\n\n\n\n\n9\n\n\nWhen the update process is complete and successful,\nthe system will automatically reboot to standard mode\n\n\n\n\n\n\n\n\n10\n\n\nVerify that the SW version has updated", 
             "title": "Upgrader"
         }, 
         {
             "location": "/explorer-kit/gui/upgrader/#software-update", 
-            "text": "A SW update package (.wlup) includes all files required to update the system. Some SW updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your bard. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to  update.waterlinked.com  and enter the Chip ID of your kit.     Step  Description  API      1  Power off the system     2  Set Master-D1 to fixed IP \u201c192.168.2.94\u201d  See chapter 3.1    3  Set the IP on your own computer to be on the same  sub-net     4  Power up the system while at the same time keeping  the GP0 pin on the GPIO connector grounded     5  Go to web GUI  http://192.168.2.94     6  After the system has booted and you see the  upgrader GUI, remove the grounding of GP0.     7  Click \u201cBrowse file\u201d and select correct  .wlup file     8  Wait for update process to complete     9  When the update process is complete and successful, the system will automatically reboot to standard mode     10  Verify that the SW version has updated", 
+            "text": "As of software release 2.1.0 the web GUI automaticly checks for new updates when the host computer is connected to internet. If you have the latest release you will see a green checkmark as below and if you don't have the latest it will give you a warning that a newer release is available.    A software update package (.wlup) includes all files required to update the system. Some software updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your board. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to  update.waterlinked.com  and enter the Chip ID of your kit.", 
             "title": "Software update"
+        }, 
+        {
+            "location": "/explorer-kit/gui/upgrader/#update-process", 
+            "text": "Step  Description  API      1  Power off the system     2  Set Master-D1 to fixed IP \u201c192.168.2.94\u201d  See chapter 3.1    3  Set the IP on your own computer to be on the same  sub-net     4  Power up the system while at the same time keeping  the GP0 pin on the GPIO connector grounded     5  Go to web GUI  http://192.168.2.94     6  After the system has booted and you see the  upgrader GUI, remove the grounding of GP0.     7  Click \u201cBrowse file\u201d and select correct  .wlup file     8  Wait for update process to complete     9  When the update process is complete and successful, the system will automatically reboot to standard mode     10  Verify that the SW version has updated", 
+            "title": "Update process"
         }, 
         {
             "location": "/explorer-kit/gui/api/", 
@@ -382,7 +402,7 @@
         }, 
         {
             "location": "/quickstart/", 
-            "text": "Quickstart\n\n\nIntro\n\n\nThis is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:\n\n\n\n\nPower the topside unit\n\n\nCalibrate IMU\n\n\nPlace receivers\n\n\nConnect everything\n\n\nSelect locator and channel\n\n\nConfigure receiver placement in GUI\n\n\n\n\nPower the topside unit\n\n\nStart by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system.\n\n\nCalibrate IMU\n\n\nNext step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described \nhere\n\n\nPlace receivers\n\n\nConnect everything\n\n\nSelect locator and channel\n\n\nConfigure receiver placement in GUI", 
+            "text": "Quickstart\n\n\nIntro\n\n\nThis is a quickstart guide on how to setup the Water Linked Underwater GPS. The steps you need to perform is:\n\n\n\n\nPower the topside unit\n\n\nCalibrate IMU\n\n\nPlace receivers\n\n\nConnect everything\n\n\nSelect locator and channel\n\n\nConfigure receiver placement in GUI\n\n\n\n\nPower the topside unit\n\n\nStart by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock. \n\n\nCalibrate IMU\n\n\nNext step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described \nhere\n. At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green. \n\n\nDeploying of receivers\n\n\nBefore starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit. \n\n\n\n\nTip\n\n\nAdding lead weights just above the receiver helps keep them stable when doing the positioning.\n\n\n\n\nConnect everything\n\n\nWhen connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.\n\n\n\n\nSelect locator and channel\n\n\nNow that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.\n\n\nConfigure receiver placement and seach range in GUI\n\n\nAfter selecting the correct locator you need to input the correct placement of the receiver for the positining algorithm to work correctly. \n\n\n\n\nWarning\n\n\nIf you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found \nhere\n.\n\n\n\n\nYou are now ready to explor the underwater world and knowing where you are at the same time.", 
             "title": "Quickstart"
         }, 
         {
@@ -397,33 +417,33 @@
         }, 
         {
             "location": "/quickstart/#power-the-topside-unit", 
-            "text": "Start by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system.", 
+            "text": "Start by connecting power to the topside unit. We do this because we want the GPS receiver to start get signals and get lock the position of the topside uint while we setup the rest of the system. If you are using the locator-S1 power it on such that it also have time to get GPS lock.", 
             "title": "Power the topside unit"
         }, 
         {
             "location": "/quickstart/#calibrate-imu", 
-            "text": "Next step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described  here", 
+            "text": "Next step is to connect the ethernet cabel to the topside unit and your computer. Then open your web browser and type in the IP-address of your topside unit which is defined by the position of the dip-switch. How to change the IP-address is described  here . At the top bar on the GUI you will see a calibration bar for the IMU and a signal strength bar for the GPS. To calibrate the IMU rotat it in a figure of 8 and keep doing it until the IMU calibration bar becomes full and green.", 
             "title": "Calibrate IMU"
         }, 
         {
-            "location": "/quickstart/#place-receivers", 
-            "text": "", 
-            "title": "Place receivers"
+            "location": "/quickstart/#deploying-of-receivers", 
+            "text": "Before starting to place the receivers in the water add piece of tap on the receiver cable on the desired depth to make setup easier. Place the receivers in the water on the desired location and decide what the numbering on each receiver is. This is important when connecting the recivers to the topside unit.    Tip  Adding lead weights just above the receiver helps keep them stable when doing the positioning.", 
+            "title": "Deploying of receivers"
         }, 
         {
             "location": "/quickstart/#connect-everything", 
-            "text": "", 
+            "text": "When connecting the receiver cabels to the topside unit remember the numbering you decided on and connect the connector to the accordingly port. If this is not correct the position will be completely wrong. Next you connect the Locator if you are using the A1 or D1.", 
             "title": "Connect everything"
         }, 
         {
             "location": "/quickstart/#select-locator-and-channel", 
-            "text": "", 
+            "text": "Now that everything is connected and ready it is time to select the right locator and choose which channal to listen on. This is configurated on the setting page of the web GUI. The Water Linked standard is to use channel 17 and this is the default channel on the Locator-S1.", 
             "title": "Select locator and channel"
         }, 
         {
-            "location": "/quickstart/#configure-receiver-placement-in-gui", 
-            "text": "", 
-            "title": "Configure receiver placement in GUI"
+            "location": "/quickstart/#configure-receiver-placement-and-seach-range-in-gui", 
+            "text": "After selecting the correct locator you need to input the correct placement of the receiver for the positining algorithm to work correctly.    Warning  If you are using the Locator-A1 or S1, you need to provid depth information to the topside unit. Description on how to do this is found  here .   You are now ready to explor the underwater world and knowing where you are at the same time.", 
+            "title": "Configure receiver placement and seach range in GUI"
         }, 
         {
             "location": "/tutorials/", 
