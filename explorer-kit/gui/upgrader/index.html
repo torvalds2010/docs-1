@@ -640,16 +640,16 @@
                 
                 
                 <h1 id="software-update">Software update</h1>
-<p>As of software release 2.1.0 the web GUI automaticly checks for new updates when the host computer is connected to internet. If you have the latest release you will see a green checkmark as below and if you don't have the latest it will give you a warning that a newer release is available. </p>
+<p>As of software release 2.1.0 the system automaticly checks for updates when the host computer is connected to internet. If you have the latest release you will see a green checkmark as shown below. A warning will indicate if a newer release is available. </p>
 <p><img alt="sw_version" src="../../../img/sw_version.png" /></p>
-<p>A software update package (.wlup) includes all files required to update the system. Some software updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your board. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to <a href="http://update.waterlinked.com">update.waterlinked.com</a> and enter the Chip ID of your kit.</p>
+<p>A software update package (.wlup file) includes all files required to update the system. Some software updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your board. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to <a href="http://update.waterlinked.com">update.waterlinked.com</a> and enter the Chip ID of your kit.</p>
 <h2 id="update-process">Update process</h2>
 <table>
 <thead>
 <tr>
 <th>Step</th>
 <th align="left">Description</th>
-<th align="left">API</th>
+<th align="left"></th>
 </tr>
 </thead>
 <tbody>
@@ -665,12 +665,12 @@
 </tr>
 <tr>
 <td>3</td>
-<td align="left">Set the IP on your own computer to be on the same <br/>sub-net</td>
+<td align="left">Set the IP on your own computer to be on the same sub-net</td>
 <td align="left"></td>
 </tr>
 <tr>
 <td>4</td>
-<td align="left">Power up the system while at the same time keeping <br/>the GP0 pin on the GPIO connector grounded</td>
+<td align="left">Power up the system while at the same time keeping the GP0 pin on the GPIO connector grounded</td>
 <td align="left"><img alt="upgrade_plug" src="../../../img/upgrade_plug.png" /></td>
 </tr>
 <tr>
@@ -680,7 +680,7 @@
 </tr>
 <tr>
 <td>6</td>
-<td align="left">After the system has booted and you see the <br/>upgrader GUI, remove the grounding of GP0.</td>
+<td align="left">After the system has booted and you see the upgrader GUI, remove the grounding of GP0.</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -695,7 +695,7 @@
 </tr>
 <tr>
 <td>9</td>
-<td align="left">When the update process is complete and successful,<br/>the system will automatically reboot to standard mode</td>
+<td align="left">When the update process is complete and successful, the system will automatically reboot to standard mode</td>
 <td align="left"></td>
 </tr>
 <tr>
