@@ -1,8 +1,22 @@
-# Hardware Setup
+# Locator-S1
 
 ## Description
 
-The Locator-S1 is a digital hydro acoustic locator device with an internal GPS based time sync module. The Locator-S1 does not require tether integration for top-side communication. It only requires external power 10-18V to be provided from the underwater vehicle. Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.
+The Locator-S1 carries an internal GPS based time sync module. Because of this, the S1 does not require tether integration for top-side communication. It only requires external power 10-18V to be provided from the underwater device. 
+
+Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.
+
+As the Locator-S1 does not caarry its own depth sensor, the depth needs to be provided from the underwater vehicle (ROV etc.) to the topside Master-D1 using the software API.
+
+## LED Signals
+
+* Fixed green light: GPS lock is acheived. The unit is ready to dive.
+
+* Flashing green light (fast): Searching for GPS lock. The unit is not ready to dive.
+
+* Flashing green light (slow): GPS lock has been acheived but lost. The unit is ready to dive.
+
+* No green light: Power is off.
 
 ## Benefits
 
