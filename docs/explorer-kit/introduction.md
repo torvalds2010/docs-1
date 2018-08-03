@@ -8,9 +8,9 @@ The Underwater GPS Explorer Kit is a robust and reliable acoustic positioning sy
 
 <div style="text-align: center;"><img src="../../img/gui_global_position.png" style="width: 750px;" title="GUI Example"></div><br>
 
-The Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on the device to be positioned and functions as a beacon that sends out an acoustic pulse. Near the surface, there are four receiver hydrophones lowered into the water. The receivers listen for the pulse from the locator. Time-of-arrival to each receiver is used to calculate the Locator’s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and acoustic reflective environments, such as in fish cages, near harbor installations, close to ship hulls, inside water tanks etc.
+The Underwater GPS system is based on Short Baseline (SBL) acoustic positioning. The Locator is placed on the device to be positioned and functions as a beacon that send out an acoustic pulse. Near the surface, there are four Receiver hydrophones lowered into the water. The Receivers listen for the pulse from the locator. Time-of-arrival to each Receiver is used to calculate the Locator’s position. SBL systems, compared to the USBL systems, have the advantage of working well in shallow water and acoustic reflective environments, such as in fish cages, near harbor installations, close to ship hulls, inside water tanks etc.
 
-Once the position is known relative to the receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.
+Once the position is known relative to the Receivers, the global position can be found by adding that to the position obtained by a GPS receiver. The Underwater GPS system does that part internally so that it can provide the actual global position of the ROV as it's output.
 
 ## Kit content
 
@@ -27,7 +27,7 @@ Once the position is known relative to the receivers, the global position can be
 
 ## Collaboration
 
-This document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. </br>Or just simply hit the edit button on the top of tha page.
+This document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. </br>Or just simply hit the edit button on the top of the page.
 
 ## Discussion
 
