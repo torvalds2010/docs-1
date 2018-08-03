@@ -25,7 +25,6 @@ markdown_extensions:
   - markdown.extensions.footnotes
   - markdown.extensions.meta
 
-
 extra_css:
     - css/extra.css
 
@@ -42,6 +41,7 @@ pages:
             - Diagnostic: explorer-kit/gui/diagnostic.md
             - Upgrader: explorer-kit/gui/upgrader.md
             - API: explorer-kit/gui/api.md
+        - Quickstart: explorer-kit/quickstart.md
 
     # - Developer Bundle:
     #     - Introduction: developer-bundle/introduction.md
@@ -61,7 +61,6 @@ pages:
 
     - Receiver-D1: receiver-d1.md
     - Master-D1: master-d1.md
-    - Quickstart: quickstart.md
     - Tutorials: tutorials.md
     - Helpful Links: helpful-links.md
 
