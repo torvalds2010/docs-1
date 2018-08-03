@@ -1,8 +1,12 @@
-## Software update
+# Software update
+
+As of software release 2.1.0 the web GUI automaticly checks for new updates when the host computer is connected to internet. If you have the latest release you will see a green checkmark as below and if you don't have the latest it will give you a warning that a newer release is available. 
 
 ![sw_version](../../img/sw_version.png)
 
-A SW update package (.wlup) includes all files required to update the system. Some SW updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your bard. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to [update.waterlinked.com](http://update.waterlinked.com) and enter the Chip ID of your kit.
+A software update package (.wlup) includes all files required to update the system. Some software updates also requires an update of the low-level FPGA image. The FPGA image is encrypted with a unique key. To generate a new FPGA image for your board, Water Linked needs to know the Chip ID of your board. The Chip ID can be found in the About tab of the GUI. To get the latest software package for your kit, go to [update.waterlinked.com](http://update.waterlinked.com) and enter the Chip ID of your kit.
+
+## Update process
 
 | Step | Description          | API                  |
 | -    | :------------------- | :------------------- |
