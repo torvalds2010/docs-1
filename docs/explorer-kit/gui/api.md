@@ -1,15 +1,15 @@
 # API
 
-The Underwater GPS comes with an easy-to-use API. This API uses a HTTP-based scheme to interact with the system. Through the API you can among others:
+The Underwater GPS system comes with an easy-to-use software API. This API uses a HTTP-based scheme to interact with the system. Through the API you can among others:
 
-* set configuration settings
+* Read acoustic and global position data
 
-* read acoustic and global position data
+* Read GPS and IMU raw data
 
-* read GPS and IMU raw data
+* Read and set POIs
 
-* read and set POIs
+* Set configuration settings
 
-SWAGGER is used for API documentation. See [demo.waterlinked.com/swagger](http://demo.waterlinked.com/swagger) for more information.
+See [demo.waterlinked.com/swagger](http://demo.waterlinked.com/swagger) for more information.
 
 Example code which use the api can be found [here](https://github.com/waterlinked/examples).
