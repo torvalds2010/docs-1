@@ -7,7 +7,6 @@ theme:
     logo: img/waterlinked_logo.png
     favicon: 'img/favicon_water_linked.ico'
     palette:
-        primary: blue-grey
         accent: blue
 extra:
     social:
