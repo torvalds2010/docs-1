@@ -12,16 +12,37 @@ The Underwater GPS system comes with an easy-to-use software API. This API uses 
 
 See [demo.waterlinked.com/swagger](http://demo.waterlinked.com/swagger) for more information.
 
-## How to install requirements before using API
+Beacuse the API is based on HTTP and it is possible to use multiple different programing languages to interface it. In our examples on Github we use Python. How to install the requirements needed when using the API with Python is explained below.
 
-When starting to use the Water Linked software API you need to make sure you have all the requriments installed. First install [Python 2.7](https://www.python.org/downloads/release/python-2715/) and [pip](https://pip.pypa.io/en/stable/installing/). Next you need to download/clone the repository which is found on [Github](https://github.com/waterlinked/examples). Then you open a terminal in the dictionary where you saved the files and install the required Python packages using this command:
+## How to install requirements needed to use Water Linked API examples
 
+When starting to use the Water Linked software API you need to make sure you have all the requriments installed. First install Python and pip:
+
+* Windows: [Guide](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)
+* Mac: It should be preinstalled. Check by using these command:
+```
+python2 -V
+pip -V
+```
+* Linux: It should be preinstalled. Check by using these command:
+```
+python2 --version
+pip --version
+```
+Next you need to download/clone our  the repository which is found on [Github](https://github.com/waterlinked/examples). Then you open a terminal in the directory where you saved the files and install the required Python packages using this command:
+
+* Windows:
+```
+python -m pip install -r requirements.txt
+```
+
+* Linux and Mac:
 ```
 pip install -r requirements.txt
-```
+```p
 Once this is done you are ready to start interfacing the API.
 
-Example code which use the api can be found [here](https://github.com/waterlinked/examples).
+Example code which use the API can be found [here](https://github.com/waterlinked/examples).
 
 ## Providing depth to system when using Locator-A1/S1
 
