@@ -39,7 +39,7 @@ python -m pip install -r requirements.txt
 * Linux and Mac:
 ```
 pip install -r requirements.txt
-```p
+```
 Once this is done you are ready to start interfacing the API.
 
 Example code which use the API can be found [here](https://github.com/waterlinked/examples).
