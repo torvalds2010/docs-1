@@ -418,15 +418,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-install-requirements-before-using-api" title="How to install requirements before using API" class="md-nav__link">
-    How to install requirements before using API
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#providing-depth-to-system-when-using-locator-a1s1" title="Providing depth to system when using Locator-A1/S1" class="md-nav__link">
-    Providing depth to system when using Locator-A1/S1
+  <a href="#how-to-install-requirements-needed-to-use-water-linked-api-examples" title="How to install requirements needed to use Water Linked API examples" class="md-nav__link">
+    How to install requirements needed to use Water Linked API examples
   </a>
   
 </li>
@@ -617,15 +610,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-install-requirements-before-using-api" title="How to install requirements before using API" class="md-nav__link">
-    How to install requirements before using API
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#providing-depth-to-system-when-using-locator-a1s1" title="Providing depth to system when using Locator-A1/S1" class="md-nav__link">
-    Providing depth to system when using Locator-A1/S1
+  <a href="#how-to-install-requirements-needed-to-use-water-linked-api-examples" title="How to install requirements needed to use Water Linked API examples" class="md-nav__link">
+    How to install requirements needed to use Water Linked API examples
   </a>
   
 </li>
@@ -666,20 +652,51 @@
 </li>
 </ul>
 <p>See <a href="http://demo.waterlinked.com/swagger">demo.waterlinked.com/swagger</a> for more information.</p>
-<h2 id="how-to-install-requirements-before-using-api">How to install requirements before using API</h2>
-<p>When starting to use the Water Linked software API you need to make sure you have all the requriments installed. First install <a href="https://www.python.org/downloads/release/python-2715/">Python 2.7</a> and <a href="https://pip.pypa.io/en/stable/installing/">pip</a>. Next you need to download/clone the repository which is found on <a href="https://github.com/waterlinked/examples">Github</a>. Then you open a terminal in the dictionary where you saved the files and install the required Python packages using this command:</p>
+<p>Beacuse the API is based on HTTP and it is possible to use multiple different programing languages to interface it. In our examples on Github we use Python. How to install the requirements needed when using the API with Python is explained below.</p>
+<h2 id="how-to-install-requirements-needed-to-use-water-linked-api-examples">How to install requirements needed to use Water Linked API examples</h2>
+<p>When starting to use the Water Linked software API you need to make sure you have all the requriments installed. First install Python and pip:</p>
+<ul>
+<li>Windows: <a href="https://github.com/BurntSushi/nfldb/wiki/Python-&amp;-pip-Windows-installation">Guide</a></li>
+<li>Mac: It should be preinstalled. Check by using these command:</li>
+</ul>
+<div class="codehilite"><pre><span></span>python2 -V
+pip -V
+</pre></div>
+
+
+<ul>
+<li>Linux: It should be preinstalled. Check by using these command:</li>
+</ul>
+<div class="codehilite"><pre><span></span>python2 --version
+pip --version
+</pre></div>
+
+
+<p>Next you need to download/clone our  the repository which is found on <a href="https://github.com/waterlinked/examples">Github</a>. Then you open a terminal in the directory where you saved the files and install the required Python packages using this command:</p>
+<ul>
+<li>Windows:</li>
+</ul>
+<div class="codehilite"><pre><span></span>python -m pip install -r requirements.txt
+</pre></div>
+
+
+<ul>
+<li>Linux and Mac:</li>
+</ul>
 <div class="codehilite"><pre><span></span>pip install -r requirements.txt
+```p
+Once this is done you are ready to start interfacing the API.
+
+Example code which use the API can be found [here](https://github.com/waterlinked/examples).
+
+## Providing depth to system when using Locator-A1/S1
+
+Make sure you have completed the installation of the requirments found above. Then open a terminal window in the dictionary where the files are saved and run the command:
 </pre></div>
 
 
-<p>Once this is done you are ready to start interfacing the API.</p>
-<p>Example code which use the api can be found <a href="https://github.com/waterlinked/examples">here</a>.</p>
-<h2 id="providing-depth-to-system-when-using-locator-a1s1">Providing depth to system when using Locator-A1/S1</h2>
-<p>Make sure you have completed the installation of the requirments found above. Then open a terminal window in the dictionary where the files are saved and run the command:</p>
-<div class="codehilite"><pre><span></span>python python externaldepth.py -d DEPTH_OF_LOCATOR -t TEMP_OF_WATER -u URL_OF_KIT -r REPETATION_RATE
-</pre></div>
-
-
+<p>python python externaldepth.py -d DEPTH_OF_LOCATOR -t TEMP_OF_WATER -u URL_OF_KIT -r REPETATION_RATE
+```</p>
 <ul>
 <li>DEPTH_OF_LOCATOR: Is the current depth of the Locator.</li>
 <li>TEMP_OF_WATER: Is the temperature of the water where the Locator is operating in.</li>
