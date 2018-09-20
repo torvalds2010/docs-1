@@ -6,6 +6,9 @@ The Locator-S1 carries an internal GPS based time sync module. Because of this, 
 
 Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.
 
+!!! note
+    The default channel for Locator-S1 is 17 on boot.
+
 As the Locator-S1 does not carry its own depth sensor, the depth needs to be provided from the underwater vehicle (ROV etc.) to the topside Master-D1 using the software API. Example of how to perform this can be found [here](https://waterlinked.github.io/docs/explorer-kit/gui/api/).
 
 ## LED Signals
