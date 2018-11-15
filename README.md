@@ -4,7 +4,7 @@ We are using mkdocs to manage our documentation.
 
 # Contributing
 
-We're really happy if you want to contribut to make the documention better!
+We're really happy if you want to contribute to make the documentation better!
 This is done by creating a pull request.
 
 1. Install dependencies
