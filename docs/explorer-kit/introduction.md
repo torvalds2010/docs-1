@@ -27,7 +27,7 @@ Once the position is known relative to the Receivers, the global position can be
 
 ## Collaboration
 
-This document is created using markdown and is hosted on GitHub. If you find somthing that is not docomented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. </br>Or just simply hit the edit button on the top of the page.
+This document is created using markdown and is hosted on GitHub. If you find something that is not documented well enough, typos or any other mistakes. Please open an issue or create a pull request to fix the problem. </br>Or just simply hit the edit button on the top of the page.
 
 ## Discussion
 
