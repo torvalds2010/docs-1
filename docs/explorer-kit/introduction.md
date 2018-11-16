@@ -27,7 +27,9 @@ Once the position is known relative to the Receivers, the global position can be
 
 ## User Manual
 
-[Waterlinked Underwater GPS User Manual](https://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf)
+The information in this site was earlier available in a PDF which is now outdated but useful for offline use.
+
+[Outdated Water Linked Underwater GPS User Manual](https://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf)
 
 ## Collaboration
 
