@@ -13,7 +13,7 @@ A software update package (.wlup file) includes all files required to update the
 | 1    | Power off the system |  |
 | 2    | Set Master-D1 to fixed IP “192.168.2.94” | See chapter 3.1 |
 | 3    | Set the IP on your own computer to be on the same sub-net |  |
-| 4    | Power up the system while at the same time keeping the GP0 pin on the GPIO connector grounded | ![upgrade_plug](../../img/upgrade_plug.png) |
+| 4    | Power up the system while at the same time keeping the GPIO0 pin on the GPIO connector grounded with the upgrade plug included with the kit | ![upgrade_plug](../../img/upgrade_plug.jpg) |
 | 5    | Go to web GUI [http://192.168.2.94](http://192.168.2.94) |  |
 | 6    | After the system has booted and you see the upgrader GUI, remove the grounding of GP0. |  |
 | 7    | Click “Browse file” and select correct <>.wlup file |  |
