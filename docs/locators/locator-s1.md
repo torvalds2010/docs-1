@@ -4,7 +4,7 @@
 
 The Locator-S1 carries an internal GPS based time sync module. Because of this, the S1 does not require tether integration for top-side communication. It only requires external power 10-18V to be provided from the underwater device. 
 
-Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock.
+Some Locator-S1 attributes can be configured using an integrated UART interface. This configuration is optional and not required for normal operation. Before deployment in water, the Locator-S1 needs to achieve a GPS lock. The integrated status-LED shows the condition of the GPS lock. Once the Locator-S1 has lock it can operate for approximately 6 hours befor needing resync with GPS.
 
 !!! note
     The default channel for Locator-S1 is 17 on boot.
