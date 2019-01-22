@@ -16,6 +16,10 @@ The BS0 and BS1 positions on the dip switch shall both be ON. These boot-select 
 
 Use the supplied Ethernet cable to connect the Underwater GPS to a network switch or directly into the host computer.
 
+!!! note
+    The host computer connected to the topside unit needs to have an IP-address on the same subnet as set on the Master-D1.
+    For example: If the IP address of the UGPS is 10.11.12.94 the host computer needs to be configured to a different 10.11.12.x address e.g. 10.11.12.100.
+
 ## Connectors
 
 ![pelicase_connectors](../img/pelicase_connectors.png)
